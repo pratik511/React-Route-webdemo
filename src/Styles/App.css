@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+.App1{
+text-align: left;
+margin-left: 30%;
+}
+.Nav{
+  font-size: 25px;
+  background-color: blue;
+  /* margin-bottom: 5%; */
+  padding: 20px 0px;
+  padding-left: 15%;
+}
+.Nav:hover{
+  background-color: black;
+  border: 5px solid rgb(253, 252, 252);
+}
+.Nav1{
+  float:right;
+  /* border: 2px solid rgb(247, 239, 239);
+  border-radius: 10px; */
+}
+/* .Nav1:hover{
+  border: 2px solid rgb(250, 0, 0);
+  border-radius: 10px;
+} */
+.Navimg{
+  width: 50px;
+  height: 30px;
+  color: rgb(15, 163, 221);
+  text-decoration: none;
+}
+.Navbar{
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+.Navbar:hover{
+  color: red;
+  /* background-color: black; */
+  /* border-radius: 10px; */
+}
+/* .Navbar:focus{
+  color: red;
+} */
+.card{
+  margin: 40px 30px;
+}
+.card-img{
+  height: 179px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.edit-btn,
+.delete-btn{
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1.0rem;
+  margin: 0 0.10rem;
+  transition: all 0.3s linear;
+}
+
+.edit-btn{
+  color: rgb(28, 245, 46);
+  size: 20px;
+}
+
+.delete-btn{
+  color: rgb(235, 11, 11);
+}
+.form-control{
+  width: 25%;
+}
+
+li{
+  width: 58%;
+  margin-left: 21%;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
